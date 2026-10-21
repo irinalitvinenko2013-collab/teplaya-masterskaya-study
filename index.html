@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<link rel="preload" as="image" href="img/cover-pottery.webp" fetchpriority="high">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Тёплая мастерская — учебный проект</title>
@@ -115,7 +116,7 @@
       <ul class="список-иконок"><li><i class="галка"></i><span>Керамика</span></li><li><i class="галка"></i><span>Бумажная лоза</span></li><li><i class="галка"></i><span>Мыло</span></li><li><i class="галка"></i><span>Свечи</span></li><li><i class="галка"></i><span>Ароматические саше</span></li><li><i class="галка"></i><span>Арт-терапия</span></li></ul>
       <div class="первый-экран__действие"><a class="кнопка кнопка--главная" href="#экран-05">Посмотреть мастерские</a><a class="новости" href="https://vk.ru/artcopper" target="_blank" rel="noopener noreferrer">Моё сообщество ВКонтакте ↗</a></div>
     <p class="обложка-пометка">Все персонажи и иллюстрации — вымышленные</p></div>
-    <div class="альбом первый-экран__картинка" aria-label="Все шесть направлений мастерских"><figure class="альбом__карточка альбом__pottery-master"><div class="альбом__окно"><img src="img/cover-pottery.webp" alt="Илья в гончарной мастерской с руками в глине" fetchpriority="high"></div><figcaption>Керамика</figcaption></figure><figure class="альбом__карточка альбом__weaving"><div class="альбом__окно"><img src="img/cover-weaving.webp" alt="Анна и Елена с материалами и плетёными изделиями" fetchpriority="low"></div><figcaption>Бумажная лоза</figcaption></figure><figure class="альбом__карточка альбом__soap"><div class="альбом__окно"><img src="img/cover-soap.webp" alt="Елена и Анна вместе изготавливают мыло" fetchpriority="low"></div><figcaption>Мыло</figcaption></figure><figure class="альбом__карточка альбом__candle-1"><div class="альбом__окно"><img src="img/cover-candle.webp" alt="Анна на занятии по изготовлению свечей" fetchpriority="low"></div><figcaption>Свечи</figcaption></figure><figure class="альбом__карточка альбом__sachet"><div class="альбом__окно"><img src="img/cover-sachet.webp" alt="Марина показывает ароматические саше в корзине" fetchpriority="low"></div><figcaption>Ароматические саше</figcaption></figure><figure class="альбом__карточка альбом__art"><div class="альбом__окно"><img src="img/cover-art.webp" alt="Михаил рисует за столом с красками" fetchpriority="low"></div><figcaption>Арт-терапия</figcaption></figure></div>
+    <div class="альбом первый-экран__картинка" aria-label="Все шесть направлений мастерских"><figure class="альбом__карточка альбом__pottery-master"><div class="альбом__окно"><img src="img/cover-pottery.webp" alt="Илья в гончарной мастерской с руками в глине" fetchpriority="high"></div><figcaption>Керамика</figcaption></figure><figure class="альбом__карточка альбом__weaving"><div class="альбом__окно"><img src="img/cover-weaving.webp" alt="Анна и Елена с материалами и плетёными изделиями" fetchpriority="low"></div><figcaption>Бумажная лоза</figcaption></figure><figure class="альбом__карточка альбом__soap"><div class="альбом__окно"><img src="img/cover-soap.webp" alt="Елена и Анна вместе изготавливают мыло" fetchpriority="low"></div><figcaption>Мыло</figcaption></figure><figure class="альбом__карточка альбом__candle-1"><div class="альбом__окно"><img src="img/cover-candle.webp" alt="Анна на занятии по изготовлению свечей" fetchpriority="low"></div><figcaption>Свечи</figcaption></figure><figure class="альбом__карточка альбом__sachet"><div class="альбом__окно"><img src="img/cover-sachet.webp" alt="Марина показывает ароматические саше в корзине" fetchpriority="low" loading="lazy"></div><figcaption>Ароматические саше</figcaption></figure><figure class="альбом__карточка альбом__art"><div class="альбом__окно"><img src="img/cover-art.webp" alt="Михаил рисует за столом с красками" fetchpriority="low" loading="lazy"></div><figcaption>Арт-терапия</figcaption></figure></div>
   </div>
 <style>
 
@@ -157,7 +158,7 @@
 @media(max-width:899px){
 #экран-1 .обложка-пометка {display:none}
 #экран-1 {padding:0 20px 28px;min-height:0;height:auto;overflow:hidden}
-#экран-1 .шапка {padding:12px 0;margin-bottom:22px}
+#экран-1 .шапка {height:auto;min-height:56px;padding:12px 0;margin-bottom:22px}
 #экран-1 .шапка__лого img {width:132px;height:48px}
 #экран-1 .шапка__лиц {font-size:13px;line-height:1.35;max-width:165px}
 #экран-1 .блок__внутри {display:flex;flex-direction:column;gap:28px;padding:0}
